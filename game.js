@@ -24,36 +24,36 @@ let hintInterval = setInterval(() => {
 
 //images
 const imagePipe = new Image()
-imagePipe.src = "images/pipe.png"
+imagePipe.src = "./images/pipe.png"
 
 const imageRPipe = new Image()
-imageRPipe.src = "images/rpipe.png"
+imageRPipe.src = "./images/rpipe.png"
 
 const imageBird = new Image()
-imageBird.src = "images/bird.png"
+imageBird.src = "./images/bird.png"
 
 const imageBird2 = new Image()
-imageBird2.src = "images/bird2.png"
+imageBird2.src = "./images/bird2.png"
 
 //sounds
 const theme = new Audio()
-theme.src = "sound/theme.mp3"
+theme.src = "./sound/theme.mp3"
 theme.loop = true
 theme.play()
 
 const swoosh = new Audio()
-swoosh.src = "sound/swoosh.mp3"
+swoosh.src = "./sound/swoosh.mp3"
 
 const hit = new Audio()
-hit.src = "sound/hit.mp3"
+hit.src = "./sound/hit.mp3"
 
 const point = new Audio()
-point.src = "sound/point.mp3"
+point.src = "./sound/point.mp3"
 
 const die = new Audio()
-die.src = "sound/die.mp3"
+die.src = "./sound/die.mp3"
 
-canvas.style.backgroundImage = `url("images/bg2.png")`
+canvas.style.backgroundImage = `url("./images/bg2.png")`
 canvas.style.backgroundSize = "100% 100%"
 canvas.width = innerWidth
 canvas.height = innerHeight
